@@ -18,6 +18,14 @@ Flight schedules application with an Angular frontend and .NET 8 backend.
 - [Node.js](https://nodejs.org/) (v18+)
 - [Angular CLI](https://angular.dev/) (`npm install -g @angular/cli`)
 
+## Reset Database
+
+If you need to recreate the database (e.g. after a schema change), run from the repo root:
+
+```bash
+cmd /c reset-db.bat
+```
+
 ## Running the Application
 
 ### 1. Start the Data Producer (seeds the database)
