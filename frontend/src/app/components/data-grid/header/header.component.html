@@ -1,0 +1,10 @@
+<div class="grid-header-container">
+    @for (header of headers(); track header; let first = $first) {
+        <div class="header">
+            @if (!first) {
+                <div class="divider"></div>
+            }
+            <p>{{header}}</p>
+        </div>
+    }
+</div>

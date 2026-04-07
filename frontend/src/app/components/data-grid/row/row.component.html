@@ -1,0 +1,20 @@
+<div class="row-container">
+    <div class="row-cell">
+        <p>{{row().flightNumber}}</p>
+    </div>
+    <div class="row-cell">
+        <p>{{row().dtScheduled | date:"dd/MM/yy"}}</p>
+    </div>
+    <div class="row-cell">
+        <p>{{row().dtScheduled | date:"HH:mm"}}</p>
+    </div>
+    <div class="row-cell">
+        <p>{{row().vector === 'A' ? row().origin : row().destination}}</p>
+    </div>
+    <div class="row-cell">
+        <p>{{row().aircraftType ?? '..........'}}</p>
+    </div>
+    <div class="row-cell">
+        <p>{{row().linkedFlight ?? '..........'}}</p>
+    </div>
+</div>

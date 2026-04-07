@@ -1,0 +1,29 @@
+.grid-header-container {
+    background-color: #f0f0f0;
+    height: 45px;
+    width: 100%;
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    line-height: 45px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.header {
+    width: 1000px;
+    text-align: center;
+}
+
+.divider {
+    background-color: #d8d8d8;
+    height: 19px;
+    width: 1px;
+    float: left;
+    margin-top: 13px;
+}

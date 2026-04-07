@@ -1,0 +1,4 @@
+<grid-header [headers]="sampleHeaders"></grid-header>
+@for (row of rows(); track row.flightNumber) {
+    <data-row [row]="row"></data-row>
+}
